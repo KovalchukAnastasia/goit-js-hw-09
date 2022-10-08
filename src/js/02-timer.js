@@ -1,4 +1,4 @@
-// const flatpickr = require("flatpickr");
+
 import flatpickr from "flatpickr";
 import Notiflix from 'notiflix';
 import "flatpickr/dist/flatpickr.min.css";
@@ -99,15 +99,15 @@ function setSpanTime(time) {
 }
 
 // Timer styles
-styleField = document.createElement("style");
+const styleField = document.createElement("style");
 styleField.innerText = ".field{display:grid; margin-right: 20px;}";
 document.body.appendChild(styleField);
   
-styleTimer= document.createElement("style");
+const styleTimer= document.createElement("style");
 styleTimer.innerText = ".timer{display:flex;}";
 document.body.appendChild(styleTimer);
 
-styleValue = document.createElement("style");
+const styleValue = document.createElement("style");
 styleValue.innerText = ".value{font-size: -webkit-xxx-large;}";
 document.body.appendChild(styleValue);
 
