@@ -99,9 +99,9 @@ function setSpanTime(time) {
 }
 
 // Timer styles
-const styleField = document.createElement("style");
-styleField.innerText = ".field{display:grid; margin-right: 20px;}";
-document.body.appendChild(styleField);
+// const styleField = document.createElement("style");
+// styleField.innerText = ".field{display:grid; margin-right: 20px;}";
+// document.body.appendChild(styleField);
   
 const styleTimer= document.createElement("style");
 styleTimer.innerText = ".timer{display:flex;}";
